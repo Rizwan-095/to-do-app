@@ -2,7 +2,6 @@ window.onload = () => {
     tasks.forEach(item => item.state = "show");
     Task.display();
 }
-
 let tasks = [];
 const getTasks = localStorage.getItem('tasks');
 
@@ -190,4 +189,5 @@ clear__all.addEventListener('click', clearAll);
 // Refresh Page
 
 refresh.addEventListener('click', () => location.href = location.href);
+
 
